@@ -8,7 +8,7 @@
 
 body
 {
-    background-color: lightgreen;
+    background-image: url("bg img.jpg");
 }
 
 .note
@@ -20,10 +20,18 @@ body
 .copy_right_footer
 {
     position: fixed;
-    color: aliceblue;
+    color: midnightblue;
     bottom: 0;
     width: 100%;
-    background-color: purple;
+    background-color: rgb(173, 227, 166);
     line-height: 3;
     text-align: center;
+}
+
+
+canvas
+{
+    border: 5px solid red;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px violet;
 }
